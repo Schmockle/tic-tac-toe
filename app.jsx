@@ -1,3 +1,9 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Game from "./Game"; // Importerer Game-komponenten
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Game />);
 import { useState } from 'react';
 
 function Square({ value, onSquareClick }) {
